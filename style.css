@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background: url('../img/bg.jpg');
+    
+    height: 100%; 
+    color: white;
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+    margin: 2px 2px;
+}
+.left{
+    border: 2px solid rgb(201, 19, 19);
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 24px;
+    top: 22px;
+    /* align-items: center; */
+}
+.left img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 0px 40px;
+}
+.left div{
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(20, 192, 106);
+    color: white;
+    border-radius: 2px;
+}
+.mid{
+    border: 2px solid rgb(204, 40, 169);
+    display: block;
+    width: 38%;
+    margin: 22px auto;
+    color: white;
+}
+.right{
+    border: 2px solid rgb(58, 185, 19);
+    display: inline;
+    position: absolute;
+    right: 24px;
+    top: 22px;
+    color: white;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+.navbar li a:hover, .navbar li a.active{
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+    
+}
+.btn{
+    padding: 4px;
+    margin: 7px;
+    width: 130px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 400;
+}
+.btn:hover{
+    color: gray;
+    text-decoration: underline;
+       cursor: pointer;
+}
+.container{
+    border: 2px solid rgb(169, 21, 199);
+    display: block;
+    width: 35%;
+    margin: 30px 165px;
+}
+.container h2{
+    text-align: center;
+    margin: 22px;
+}
+.form{
+    margin-top: 25px;
+}
+.form-group{
+    margin: 8px 60px;
+    padding: 6px;
+    width: 50%;
+}
+form .btn{
+    
+    display: block;
+    width: 33%;
+    margin: auto;
+}
+#butt{
+    display: flex;
+}
+
+    
